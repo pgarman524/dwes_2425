@@ -1,0 +1,10 @@
+	1. La arquitectura de un servidor web varía en función de la plataforma sobre la que se vaya a utilizar y las capacidades que se requieren.
+Algunos de los servidores web más conocidos son Apache, de la Apache Foundation, o Internet Information Server de Microsoft.
+Proponemos que el alumno busque la última versión de estos servidores y describa tanto su arquitectura básica como los mecanismos de extensión
+que ofrecen para el soporte de diferentes tecnologías de programación en entorno del servidor.
+	
+	
+	La última versión de Apache es 2.4.61. Posee: 
+	- Un motor de servidor modular que permite agregar o quitar funcionalidades según las necesidades.
+	- Utiliza el proyecto Apache Portable Runtime (APR), que proporciona una interfaz predecible y coherente para implementaciones específicas de la plataforma subyacente 2.
+	- Ofrece compatibilidad limitada con extensiones de Microsoft SAPI, pero no es compatible con filtros ISAPI 
