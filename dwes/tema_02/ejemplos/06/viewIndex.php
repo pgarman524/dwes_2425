@@ -8,8 +8,9 @@
 <body>
     <h1>Hola Mundo</h1>
     <h3>
-        <?php echo  $nombre ?>
-        
+        <!-- (ctr + Ç) para hacer comentarios rápipdos -->
+         <!-- <?php echo  $nombre ?>  -->
+         <?=$nombre . " " . $apellidos ?>
     </h3>
 </body>
 </html>
