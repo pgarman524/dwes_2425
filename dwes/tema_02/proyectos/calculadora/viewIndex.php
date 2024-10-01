@@ -23,11 +23,30 @@
             <span class="fs-6">proyecto 2.1 - Calculadora Básica</span>
         </header>
 
+        <div class="row">
+            <div class="col">
+                Suma
+            </div>
+            <div class="col">
+                Resta
+            </div>
+            <div class="col">
+                Múltiplo
+            </div>
+            <div class="col">
+                Divisor
+            </div>
+        </div>
+
+
+
+
+
         <!-- Pie del documento -->
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
             <div class="container">
                 <span class="text-muted">
-                ©2024 Pablo García Mangana - DWES - 2º DAW - Curso 24/25
+                    ©2024 Pablo García Mangana - DWES - 2º DAW - Curso 24/25
                 </span>
             </div>
         </footer>
