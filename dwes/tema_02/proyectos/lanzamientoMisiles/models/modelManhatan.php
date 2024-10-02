@@ -6,8 +6,8 @@
  */
 
 //Cargo los datos en variables
-$valor1 = $_GET['num1'];
-$valor2 = $_GET['num2'];
+$valor1 = $_GET['velocidad'];
+$valor2 = $_GET['grados'];
 $g = 9.8;
 
 $velHorizontal = $valor1 * cos($valor2);
