@@ -40,13 +40,13 @@
 
                 <tr>
                     <td>Valor Inicial:</td>
-                    <td><?= $valor1 ?></td>
+                    <td><?= $valor1?> m/s</td>
                 </tr>
 
 
                 <tr>
                     <td>Ángulo de Inclinación:</td>
-                    <td><?= $valor2 ?></td>
+                    <td><?= $valor2 ?>°</td>
                 </tr>
 
                 <tr>
@@ -59,40 +59,40 @@
 
                 <tr>
                     <td>Ángulo en Radianes:</td>
-                    <td>DATO</td>
+                    <td><?= $aRadianes?>°</td>
                 </tr>
 
                 <tr>
                     <td>Velocidad Inicial X:</td>
-                    <td>DATO</td>
+                    <td><?= $velHorizontal?> m/s</td>
                 </tr>
 
                 <tr>
                     <td>Velocidad Inicial Y:</td>
-                    <td>DATO</td>
+                    <td><?= $velVertical?> m/s</td>
                 </tr>
 
                 <tr>
                     <td>Alcance Máximo del Proyectil:</td>
-                    <td>DATO</td>
+                    <td><?= $alcanceMax?> m</td>
                 </tr>
                 <tr>
                     <td>Tiempo de Vuelo del Proyectil:</td>
-                    <td>DATO</td>
+                    <td><?= $tiempoVuelo?> s</td>
                 </tr>
                 </tr>
                 <tr>
                     <td>Altura Máxima del Proyectil:</td>
-                    <td>DATO</td>
+                    <td><?= $altMax?> m</td>
                 </tr>
             </tbody>
         </table>
+        <form action="index.php" method="post">
+            <div class="btn-group" role="group">
+                <button type="submit" class="btn btn-warning" formaction="index.php">Atrás</button>
+            </div>
 
-        <div class="btn-group" role="group">
-            <button type="submit" class="btn btn-warning" formaction="index.php">Atrás</button>
-        </div>
-
-
+        </form>
     </div>
 
 

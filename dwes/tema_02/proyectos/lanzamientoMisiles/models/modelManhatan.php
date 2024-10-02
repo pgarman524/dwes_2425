@@ -10,12 +10,14 @@ $valor1 = $_GET['velocidad'];
 $valor2 = $_GET['grados'];
 $g = 9.8;
 
-$velHorizontal = $valor1 * cos($valor2);
-$velVertical = $valor1 * sin($valor2);
-
 $aRadianes = $valor2 * (M_PI / 180);
-$alcanceMax = (($velHorizontal * $velHorizontal) * sin(2 * $valor2))  / $g;
-$altMax = ($velHorizontal * sin($aRadianes))^2 / (2 * $g);
+
+$velHorizontal = $valor1 * cos($aRadianes); 
+$velVertical = $valor1 * sin($aRadianes); 
+
+
+$alcanceMax = (($valor1 ** 2) * sin(2 * $aRadianes)) / $g;
+$altMax = ($velVertical ** 2) / (2 * $g);
 $tiempoVuelo = (2 * $velVertical) / $g;
 
 
