@@ -32,7 +32,7 @@
             <!-- En thead colocamos los índices de la tabla -->
             <thead>
                 <tr>
-                    <th>
+                    <th colspan="2">
                         Valores iniciales:
                     </th>
                 </tr>

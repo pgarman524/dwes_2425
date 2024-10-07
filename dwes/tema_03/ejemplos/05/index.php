@@ -1,3 +1,5 @@
+<?php $perfil = "Editor"; ?>
+
 <!doctype html>
 <html lang="es">
 
@@ -20,14 +22,30 @@
         <header class="pb-3 mb-4 border-bottom">
             <!-- icono -->
             <i class="bi bi-calculator-fill"></i>
-            <span class="fs-6">proyecto 2.1 - Plantilla</span>
-        </header>
+            <span class="fs-6">Ejemplo 3.5 - Admin</span>
 
+        </header>
+        <!-- Menú navegador -->
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link <?= ($perfil != "Admin" ? 'disabled' : null) ?>" href="#" aria-disabled="true">Admin</a>
+            </li>
+
+        </ul>
         <!-- Pie del documento -->
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
             <div class="container">
                 <span class="text-muted">
-                ©2024 Pablo García Mangana - DWES - 2º DAW - Curso 24/25
+                    ©2024 Pablo García Mangana - DWES - 2º DAW - Curso 24/25
                 </span>
             </div>
         </footer>
