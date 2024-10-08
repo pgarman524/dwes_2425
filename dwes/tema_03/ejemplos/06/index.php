@@ -36,11 +36,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
             </li>
-            <!-- Aquí está el if que nos habla si es Admin o no lo es -->
-            <li class="nav-item">
-                <a class="nav-link <?= ($perfil != "Admin") ? 'disabled' : null ?>" href="#" aria-disabled="true">Admin</a>
-            </li>
-
+            <!-- IF alternativo. Generación dinámica del enlace Admin. Si no es admin no aparecerá en pantalla -->
+            <?php if ($perfil == "Admin") : ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Admin</a>
+                </li>
+            <?php endif; ?>
         </ul>
         <!-- Pie del documento -->
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
